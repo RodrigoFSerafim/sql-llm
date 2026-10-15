@@ -169,9 +169,9 @@ A linha `baseline` acima é o teste rápido, distinto do baseline principal (3.1
 
 As capturas de GPU e frontend estão em `docs/img/`.
 
-![GPU no VSCode](docs/img/gpu_vscode.png)
+![Uso de GPU no VSCode](docs/img/uso_gpu.png)
 
-![Frontend em funcionamento](docs/img/app.png)
+![Frontend](docs/img/front.png)
 
 ## 9. Limitações
 
@@ -190,5 +190,5 @@ As capturas de GPU e frontend estão em `docs/img/`.
 | Avaliar as respostas | `src/evaluate.py`, `results/` |
 | Testes em GPU | `src/train.py` exige CUDA; `scripts/check_gpu.py` |
 | Frontend para o prompt | `app/app.py` |
-| Print da GPU no VSCode | `docs/img/gpu_vscode.png` |
+| Print da GPU no VSCode | `docs/img/uso_gpu.png` |
 | Código e documentação no GitHub | este repositório + `docs/` |
