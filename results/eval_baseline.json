@@ -1,0 +1,8 @@
+{
+  "n": 200,
+  "n_evaluable": 198,
+  "exact_match": 0.69,
+  "valid_sql": 0.9848,
+  "exec_accuracy": 0.9242,
+  "sec_per_example": 0.37
+}

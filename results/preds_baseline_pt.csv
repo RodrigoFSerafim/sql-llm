@@ -1,0 +1,13 @@
+﻿question,gold,pred,exact_match,valid_sql,exec_match
+Quantos livros têm mais de 300 páginas?,SELECT COUNT(*) FROM books WHERE pages > 300,SELECT COUNT(*) FROM books WHERE pages > 300,True,True,True
+Liste os títulos dos livros escritos por 'Machado de Assis'.,SELECT title FROM books WHERE author = 'Machado de Assis',SELECT title FROM books WHERE author = 'Machado de Assis',True,True,True
+Qual é o preço médio dos livros?,SELECT AVG(price) FROM books,SELECT AVG(price) FROM books,True,True,True
+Qual autor tem mais livros?,SELECT author FROM books GROUP BY author ORDER BY COUNT(*) DESC LIMIT 1,SELECT author FROM books GROUP BY author ORDER BY COUNT(*) DESC LIMIT 1,True,True,True
+Mostre o título do livro mais caro.,SELECT title FROM books ORDER BY price DESC LIMIT 1,SELECT title FROM books ORDER BY price DESC LIMIT 1,True,True,True
+Qual o total de páginas por autor?,"SELECT author, SUM(pages) FROM books GROUP BY author","SELECT author, SUM(pages) FROM books GROUP BY author",True,True,True
+Quem marcou mais de 10 gols?,SELECT nome FROM jogadores WHERE gols > 10,SELECT nome FROM jogadores WHERE gols > 10,True,True,True
+Quantos jogadores tem o clube Flamengo?,SELECT COUNT(*) FROM jogadores WHERE clube = 'Flamengo',SELECT COUNT(*) FROM jogadores WHERE clube = 'Flamengo',True,True,True
+Qual a média de gols por clube?,"SELECT clube, AVG(gols) FROM jogadores GROUP BY clube","SELECT AVG(gols), clube FROM jogadores GROUP BY clube",False,True,False
+Qual é o jogador mais jovem?,SELECT nome FROM jogadores ORDER BY idade ASC LIMIT 1,SELECT nome FROM jogadores ORDER BY idade ASC LIMIT 1,True,True,True
+Qual o total de gols marcados?,SELECT SUM(gols) FROM jogadores,SELECT SUM(gols) FROM jogadores,True,True,True
+Liste os nomes dos jogadores com idade entre 20 e 30 anos.,SELECT nome FROM jogadores WHERE idade BETWEEN 20 AND 30,SELECT nome FROM jogadores WHERE idade BETWEEN 20 AND 30,True,True,True

@@ -1,0 +1,14 @@
+# ATENCAO: instale o PyTorch ANTES, com a versao de CUDA da sua placa (veja docs/GPU_CUDA.md):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+# Depois: pip install -r requirements.txt
+transformers>=4.46
+peft>=0.13
+datasets>=2.20
+accelerate>=0.34
+bitsandbytes>=0.43
+gradio>=4.40
+pandas>=2.0
+matplotlib>=3.7
+tqdm
+jupyter
+ipykernel

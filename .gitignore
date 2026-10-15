@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+# Pesos/checkpoints (grandes) - publique o adaptador no Hugging Face Hub se quiser compartilhar
+outputs/
+*.safetensors
+*.bin
+*.pt
+
+# Resultados de testes rapidos (--quick)
+results/runs/quick_*
+results/logs/quick_*
+results/*quick_*
