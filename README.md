@@ -8,7 +8,7 @@ e um **frontend** web.
 
 | Nome | RM |
 | :--- | :--- |
-| Rodrigo | 550816 |
+| Rodrigo Fernandes Serafim | 550816 |
 
 ```
 Pergunta (PT/EN) + esquema (CREATE TABLE)  ──►  LLM + adaptador LoRA  ──►  SQL  ──►  resultado no SQLite
