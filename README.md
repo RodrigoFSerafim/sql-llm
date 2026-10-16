@@ -9,6 +9,7 @@ e um **frontend** web.
 | Nome | RM |
 | :--- | :--- |
 | Rodrigo Fernandes Serafim | 550816 |
+| Henrique de Brito Costa | 98831 |
 
 ```
 Pergunta (PT/EN) + esquema (CREATE TABLE)  ──►  LLM + adaptador LoRA  ──►  SQL  ──►  resultado no SQLite
